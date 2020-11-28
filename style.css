@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  background-color: #111222;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  vertical-align: middle;
+  padding-left: 25px;
+  padding-top: 45px;
+  min-height: 10em;
+  display: table-cell;
+}
+
+h1.title {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+h2.subtitle {
+  font-family: 'Ubuntu Mono', monospace;
+  padding-top: 12px;
+  color: white;
+}
